@@ -43,7 +43,7 @@ cd
 * Untuk Mengizinkan Root Dan Ubah Password Login di VPS Google Cloud Platform, Aws, Dan Lain-lain
    
 ```html
-  wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/antinsp/bonetrojan/main/vpsroot.sh && bash vpsroot.sh
+wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/vinitaevelyn/trojan/main/vpsroot.sh && bash vpsroot.sh
 ```
   
 ### 4.
@@ -53,7 +53,7 @@ cd
 * Install Semua Layanan VPN /Install All VPN Service
    
 ```html
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/trojan && chmod +x trojan && ./trojan
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/trojan && chmod +x trojan && ./trojan
 ```
   
 
