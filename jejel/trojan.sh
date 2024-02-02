@@ -554,18 +554,18 @@ systemctl restart trojan-go
 cd
 cp /root/domain /etc/xray
 
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/ak
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/del
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/menu
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/renew
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/clearlog
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/clearlog_cron
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/xp
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/xp_cron
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/reboot_vps
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/reboot_otomatis.sh
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/certv2ray
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/addhost
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/ak
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/del
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/menu
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/renew
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/clearlog
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/clearlog_cron
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/xp
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/xp_cron
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/reboot_vps
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/reboot_otomatis.sh
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/certv2ray
+wget https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/addhost
 
 mv certv2ray /bin/certv2ray
 mv addhost /bin/addhost
@@ -593,11 +593,11 @@ chmod 755 /etc/cron.d/reboot_vps
 chmod 755 /root/reboot_otomatis.sh
 
 cd /usr/bin
-wget -O cektrojan "https://raw.githubusercontent.com/antinsp/bonetrojan/main/jejel/menu/cek/cektrojan.sh"
-wget -O cekv2ray "https://raw.githubusercontent.com/antinsp/bonetrojan/main/jejel/menu/cek/cekv2ray.sh"
-wget -O addv2ray "https://raw.githubusercontent.com/antinsp/bonetrojan/main/jejel/menu/vmess/addv2ray.sh"
-wget -O delv2ray "https://raw.githubusercontent.com/antinsp/bonetrojan/main/jejel/menu/vmess/delv2ray.sh"
-wget -O renewv2ray "https://raw.githubusercontent.com/antinsp/bonetrojan/main/jejel/menu/vmess/renewv2ray.sh"
+wget -O cektrojan "https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/cek/cektrojan.sh"
+wget -O cekv2ray "https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/cek/cekv2ray.sh"
+wget -O addv2ray "https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/vmess/addv2ray.sh"
+wget -O delv2ray "https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/vmess/delv2ray.sh"
+wget -O renewv2ray "https://raw.githubusercontent.com/vinitaevelyn/trojan/main/jejel/menu/vmess/renewv2ray.sh"
 
 chmod +x cektrojan
 chmod +x cekv2ray
